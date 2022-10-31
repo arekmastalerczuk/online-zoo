@@ -23,5 +23,12 @@ div.decor__palm {
   width: 292px;
   height: 460px;
 }
+div.decor__leav {
+  background-image: url("/assets/images/leav_foto.png");
+  top: 4257px;
+  right: 0;
+  width: 247px;
+  height: 408px;
+}
 
 /*# sourceMappingURL=decoration.css.map */
