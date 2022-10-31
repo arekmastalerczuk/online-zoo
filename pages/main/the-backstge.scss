@@ -1,0 +1,30 @@
+div.backstage-and-animals {
+  width: 1160px;
+  margin: 0 auto;
+}
+section.the-backstage {
+  display: flex;
+  width: 100%;
+  margin: 140px auto 180px;
+  & article {
+    margin-left: 87px;
+    & h2, h3 {
+      font-weight: 400;
+      line-height: 120%;
+    }
+    & h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    & h3 {
+      margin: 54px auto 34px 0;
+      font-size: 24px;
+      & +p {
+        line-height: 140%;
+      }
+    }
+    & p {
+      line-height: 130%;
+    }
+  }
+}
