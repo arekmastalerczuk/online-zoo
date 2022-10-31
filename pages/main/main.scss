@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
 @import './header.css';
 @import './the-backstge.css';
+@import './animal-cards.css';
 
 html {
   box-sizing: border-box;
@@ -18,4 +19,14 @@ html {
 .wrapper {
   width: 1600px;
   margin: 0 auto;
+}
+
+button {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  &:hover {
+    background: #E47209;
+  }
+  &:active {
+    background: #4B9200;
+  }
 }

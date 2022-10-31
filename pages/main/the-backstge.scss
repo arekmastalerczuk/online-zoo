@@ -1,13 +1,15 @@
 div.backstage-and-animals {
   width: 1160px;
   margin: 0 auto;
+  background-image: url("/assets/images/bamboo-cap.png");
+  background-repeat: no-repeat;
 }
 section.the-backstage {
   display: flex;
   width: 100%;
-  margin: 140px auto 180px;
+  margin: 140px auto 177px;
   & article {
-    margin-left: 87px;
+    margin-left: 696px;
     & h2, h3 {
       font-weight: 400;
       line-height: 120%;
