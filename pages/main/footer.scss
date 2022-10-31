@@ -14,6 +14,7 @@ footer {
       margin-top: 68px;
       margin-bottom: 44px;
       text-transform: uppercase;
+      border: none;
     }
     & p {
       position: relative;
@@ -58,15 +59,48 @@ footer {
     }
   }
   & div.navi {
-    display: flex;
-    align-items: center;
     & ul {
+      display: flex;
+      align-content: flex-end;
+      align-items: flex-end;
       list-style: none;
       & li {
         & a {
           color: white;
           text-decoration: none;
         }
+      }
+    }
+  }
+  & div.contact {
+    & button.contact-us {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      background: white;
+      width: 130px;
+      color: #000000;
+      padding: 10px;
+    }
+    & input {
+      color: white;
+      background: black;
+      border: 2px solid orange;
+      padding: 10px;
+    }
+    & p {
+      padding-top: 36px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 120%;
+      color: white;
+      &.designed {
+        position: absolute;
+        right: 30px;
+        bottom: 50px;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 130%;
       }
     }
   }

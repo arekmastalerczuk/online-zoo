@@ -16,6 +16,7 @@ footer div.social button.donate {
   margin-top: 68px;
   margin-bottom: 44px;
   text-transform: uppercase;
+  border: none;
 }
 footer div.social p {
   position: relative;
@@ -58,16 +59,45 @@ footer div.social ul li a {
   color: white;
   padding-left: 12px;
 }
-footer div.navi {
-  display: flex;
-  align-items: center;
-}
 footer div.navi ul {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
   list-style: none;
 }
 footer div.navi ul li a {
   color: white;
   text-decoration: none;
+}
+footer div.contact button.contact-us {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  background: white;
+  width: 130px;
+  color: #000000;
+  padding: 10px;
+}
+footer div.contact input {
+  color: white;
+  background: black;
+  border: 2px solid orange;
+  padding: 10px;
+}
+footer div.contact p {
+  padding-top: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: white;
+}
+footer div.contact p.designed {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
 }
 
 /*# sourceMappingURL=footer.css.map */
