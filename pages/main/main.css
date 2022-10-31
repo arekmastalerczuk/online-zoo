@@ -4,6 +4,7 @@
 @import './the-backstge.css';
 @import './animal-cards.css';
 @import './decoration.css';
+@import './pick-and-feed.css';
 html {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
