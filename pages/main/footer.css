@@ -1,0 +1,73 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+footer div.social {
+  display: block;
+  margin-bottom: 50px;
+}
+footer div.social button.donate {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+  padding: 16px;
+  margin-top: 68px;
+  margin-bottom: 44px;
+  text-transform: uppercase;
+}
+footer div.social p {
+  position: relative;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 120%;
+  width: 82px;
+  margin: 14px 0 14px 220px;
+}
+footer div.social p a {
+  color: white;
+  text-decoration: none;
+}
+footer div.social p a img {
+  position: absolute;
+  left: 9px;
+  top: 21px;
+}
+footer div.social ul {
+  list-style: none;
+}
+footer div.social ul li {
+  padding-bottom: 10px;
+}
+footer div.social ul li div {
+  display: inline-block;
+  padding-right: 12px;
+  background: rgba(196, 196, 196, 0.5);
+  width: 16px;
+  border-radius: 50%;
+}
+footer div.social ul li div img {
+  margin: 0 auto;
+}
+footer div.social ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 12px;
+}
+footer div.navi {
+  display: flex;
+  align-items: center;
+}
+footer div.navi ul {
+  list-style: none;
+}
+footer div.navi ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=footer.css.map */
