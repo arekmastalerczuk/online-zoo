@@ -57,22 +57,22 @@ div.animal {
     background-color: black;
   }
   &.animal--panda {
-    background-image: url('/assets/images/giant-two-pandas.png');
+    background-image: url('../../assets/images/giant-two-pandas.png');
   }
   &.animal--eagle {
-    background-image: url('/assets/images/eagle.png');
+    background-image: url('../../assets/images/eagle.png');
   }
   &.animal--gorilla {
-    background-image: url('/assets/images/gorilla.png');
+    background-image: url('../../assets/images/gorilla.png');
   }
   &.animal--two-toed-sloth {
-    background-image: url('/assets/images/two-toed-sloth.png');
+    background-image: url('../../assets/images/two-toed-sloth.png');
   }
   &.animal--cheetah {
-    background-image: url('/assets/images/cheetahs.png');
+    background-image: url('../../assets/images/cheetahs.png');
   }
   &.animal--penguin {
-    background-image: url('/assets/images/penguin.png');
+    background-image: url('../../assets/images/penguin.png');
   }
   & p {
     margin-left: 16px;

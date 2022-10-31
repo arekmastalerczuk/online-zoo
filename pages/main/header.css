@@ -54,7 +54,7 @@ nav ul li a:active {
 section.header {
   position: relative;
   height: 780px;
-  background-image: url("/assets/images/giant-panda.png");
+  background-image: url("../../assets/images/giant-panda.png");
   background-size: cover;
 }
 section.header button {

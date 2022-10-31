@@ -78,18 +78,18 @@ section.pick-and-feed article.pick-and-feed-friend div.feed__flow div.feed__acti
   border-radius: 5px;
 }
 section.pick-and-feed article.pick-and-feed-friend div.feed__flow div.feed__action--pay {
-  background-image: url("/assets/icons/pay.svg");
+  background-image: url("../../assets/icons/pay.svg");
 }
 section.pick-and-feed article.pick-and-feed-friend div.feed__flow div.feed__action--zoo {
-  background-image: url("/assets/icons/zoo.svg");
+  background-image: url("../../assets/icons/zoo.svg");
 }
 section.pick-and-feed article.pick-and-feed-friend div.feed__flow div.feed__action--monkey {
-  background-image: url("/assets/icons/monkey.svg");
+  background-image: url("../../assets/icons/monkey.svg");
 }
 section.pick-and-feed article.pick-and-feed-friend div.feed__flow div.feed__arrow {
   width: 71px;
   height: 37px;
-  background-image: url("/assets/icons/arrow_right.svg");
+  background-image: url("../../assets/icons/arrow_right.svg");
 }
 section.pick-and-feed article.pick-and-feed-friend div.feed__flow p {
   padding-top: 30px;
