@@ -4,6 +4,7 @@ section.animal-cards {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
+  position: relative;
 }
 
 button.animal-btn {
@@ -22,7 +23,7 @@ button.animal-btn {
 
 button.arrow-btn {
   position: absolute;
-  top: 1906px;
+  top: 405px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   width: 62px;
   height: 62px;
@@ -33,10 +34,10 @@ button.arrow-btn {
     background: #4B9200;
   }
   &.arrow-btn--left {
-    left: 170px;
+    left: -80px;
   }
   &.arrow-btn--right {
-    right: 170px;
+    right: -80px;
   }
 }
 

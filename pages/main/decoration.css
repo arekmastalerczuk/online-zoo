@@ -1,0 +1,27 @@
+div.decor {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+div.decor__flower {
+  background-image: url("/assets/images/flower_foto.png");
+  top: 792px;
+  right: 0;
+  width: 204px;
+  height: 613px;
+}
+div.decor__strelitzia {
+  background-image: url("/assets/images/strelitzia_foto.png");
+  top: 2334px;
+  right: 0;
+  width: 368px;
+  height: 275px;
+}
+div.decor__palm {
+  background-image: url("/assets/images/palm_foto.png");
+  top: 2149px;
+  left: 0;
+  width: 292px;
+  height: 460px;
+}
+
+/*# sourceMappingURL=decoration.css.map */

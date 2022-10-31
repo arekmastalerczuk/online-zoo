@@ -3,6 +3,7 @@
 @import './header.css';
 @import './the-backstge.css';
 @import './animal-cards.css';
+@import './decoration.css';
 html {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
@@ -18,6 +19,7 @@ html {
 .wrapper {
   width: 1600px;
   margin: 0 auto;
+  position: relative;
 }
 
 button {
