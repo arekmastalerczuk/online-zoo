@@ -1,0 +1,21 @@
+@import './normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+@import './header.css';
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */
