@@ -4,6 +4,7 @@ section.donation {
 section.donation div.donation__content-wrapper {
   width: 1160px;
   margin: 0 auto;
+  padding-bottom: 180px;
 }
 section.donation div.donation__content-wrapper div.pick-and-feed {
   padding: 0 92px;
@@ -11,10 +12,108 @@ section.donation div.donation__content-wrapper div.pick-and-feed {
   background: rgba(255, 255, 255, 0.52);
   backdrop-filter: blur(2px);
 }
+section.donation div.donation__content-wrapper div.pick-and-feed p.share {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+  padding-bottom: 62px;
+  padding-top: 30px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button {
+  width: 298px;
+  margin: 20px 340px;
+  background: #FE9013;
+  color: white;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button:hover {
+  background-color: #E47209;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button:active {
+  background-color: #4B9200;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form label.donation-amount {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form label input {
+  margin: 50px auto 25px;
+  padding: 16px 0 16px 10px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.frequency {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 300px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #333B41;
+  padding-top: 40px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label:hover {
+  color: #E47209;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label:active {
+  color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input {
+  margin: 0 auto;
+  display: block;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input:checked {
+  color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -10px;
+  left: 0;
+  position: relative;
+  background-color: #FFEE2E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input[type=radio]:checked:after {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  top: -10px;
+  left: 0;
+  position: relative;
+  background-color: #FFEE2E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label span {
+  display: block;
+}
 section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 48px;
 }
 section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet div.diet-counter {
   padding-top: 40px;
@@ -44,6 +143,9 @@ section.donation div.donation__content-wrapper div.pick-and-feed h3 {
   font-size: 48px;
   line-height: 120%;
   color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed p {
+  color: black;
 }
 section.donation div.donation__content-wrapper div.pick-and-feed p.subtitle {
   padding-top: 14px;
