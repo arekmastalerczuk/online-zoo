@@ -8,7 +8,6 @@ footer div.social {
   margin-bottom: 50px;
 }
 footer div.social button.donate {
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 5px;
   width: 300px;
   color: white;
@@ -17,6 +16,12 @@ footer div.social button.donate {
   margin-bottom: 44px;
   text-transform: uppercase;
   border: none;
+}
+footer div.social button:hover {
+  background-color: #E47209;
+}
+footer div.social button:active {
+  background-color: #4B9200;
 }
 footer div.social p {
   position: relative;
@@ -27,7 +32,7 @@ footer div.social p {
   font-weight: 400;
   line-height: 120%;
   width: 82px;
-  margin: 14px 0 14px 220px;
+  margin: 42px 0 14px 0;
 }
 footer div.social p a {
   color: white;
@@ -59,15 +64,33 @@ footer div.social ul li a {
   color: white;
   padding-left: 12px;
 }
+footer div.social ul li a:hover {
+  color: #E47209;
+}
+footer div.social ul li a:active {
+  color: #4B9200;
+}
 footer div.navi ul {
   display: flex;
   align-content: flex-end;
   align-items: flex-end;
   list-style: none;
 }
+footer div.navi ul li {
+  padding: 330px 10px 10px 10px;
+}
 footer div.navi ul li a {
   color: white;
   text-decoration: none;
+}
+footer div.navi ul li a.nav__item--active {
+  color: #E47209;
+}
+footer div.navi ul li a:hover {
+  color: #E47209;
+}
+footer div.navi ul li a:active {
+  color: #4B9200;
 }
 footer div.contact button.contact-us {
   font-weight: 400;
@@ -86,6 +109,7 @@ footer div.contact input {
 }
 footer div.contact p {
   padding-top: 36px;
+  padding-bottom: 14px;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
