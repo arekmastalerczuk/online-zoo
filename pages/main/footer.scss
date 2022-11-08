@@ -5,16 +5,25 @@ footer {
   & div.social {
     display: block;
     margin-bottom: 50px;
-    & button.donate {
-      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-      border-radius: 5px;
-      width: 300px;
-      color: white;
-      padding: 16px;
-      margin-top: 68px;
-      margin-bottom: 44px;
-      text-transform: uppercase;
-      border: none;
+
+    & button {
+      &.donate {
+        border-radius: 5px;
+        width: 300px;
+        color: white;
+        padding: 16px;
+        margin-top: 68px;
+        margin-bottom: 44px;
+        text-transform: uppercase;
+        border: none;
+      }
+      &:hover {
+        background-color: #E47209;
+      }
+
+      &:active {
+        background-color: #4B9200;
+      }
     }
     & p {
       position: relative;
@@ -25,7 +34,7 @@ footer {
       font-weight: 400;
       line-height: 120%;
       width: 82px;
-      margin: 14px 0 14px 220px;
+      margin: 42px 0 14px 0;
       & a {
         color: white;
         text-decoration: none;
@@ -54,6 +63,12 @@ footer {
           text-decoration: none;
           color: white;
           padding-left: 12px;
+          &:hover {
+            color: #E47209;
+          }
+          &:active {
+            color: #4B9200;
+          }
         }
       }
     }
@@ -65,9 +80,19 @@ footer {
       align-items: flex-end;
       list-style: none;
       & li {
+        padding: 330px 10px 10px 10px;
         & a {
           color: white;
           text-decoration: none;
+          &.nav__item--active {
+            color: #E47209;
+          }
+          &:hover {
+            color: #E47209;
+          }
+          &:active {
+            color: #4B9200;
+          }
         }
       }
     }
@@ -90,6 +115,7 @@ footer {
     }
     & p {
       padding-top: 36px;
+      padding-bottom: 14px;
       font-weight: 400;
       font-size: 24px;
       line-height: 120%;
