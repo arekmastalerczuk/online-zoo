@@ -1,0 +1,35 @@
+div.backstage-and-animals {
+  width: 1160px;
+  margin: 0 auto;
+  background-image: url("../../assets/images/bamboo-cap.png");
+  background-repeat: no-repeat;
+}
+
+section.the-backstage {
+  display: flex;
+  width: 100%;
+  margin: 140px auto 177px;
+}
+section.the-backstage article {
+  margin-left: 696px;
+}
+section.the-backstage article h2, section.the-backstage article h3 {
+  font-weight: 400;
+  line-height: 120%;
+}
+section.the-backstage article h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+section.the-backstage article h3 {
+  margin: 54px auto 34px 0;
+  font-size: 24px;
+}
+section.the-backstage article h3 + p {
+  line-height: 140%;
+}
+section.the-backstage article p {
+  line-height: 130%;
+}
+
+/*# sourceMappingURL=the-backstge.css.map */

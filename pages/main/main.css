@@ -1,0 +1,38 @@
+@import './normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+@import './header.css';
+@import './the-backstge.css';
+@import './animal-cards.css';
+@import './decoration.css';
+@import './pick-and-feed.css';
+@import './testmonials.css';
+@import './footer.css';
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+button {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+button:hover {
+  background: #E47209;
+}
+button:active {
+  background: #4B9200;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,147 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+footer div.social {
+  display: block;
+  margin-bottom: 50px;
+}
+footer div.social button.donate {
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+  padding: 16px;
+  margin-top: 68px;
+  margin-bottom: 44px;
+  text-transform: uppercase;
+  border: none;
+}
+footer div.social button:hover {
+  background-color: #E47209;
+}
+footer div.social button:active {
+  background-color: #4B9200;
+}
+footer div.social p {
+  position: relative;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 120%;
+  width: 82px;
+  margin: 42px 0 14px 0;
+}
+footer div.social p a {
+  color: white;
+  text-decoration: none;
+}
+footer div.social p a img {
+  position: absolute;
+  left: 9px;
+  top: 21px;
+}
+footer div.social ul {
+  list-style: none;
+}
+footer div.social ul li {
+  padding-bottom: 10px;
+  display: flex;
+}
+footer div.social ul li div {
+  display: inline-block;
+  padding-right: 12px;
+  background: rgba(196, 196, 196, 0.5);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(196, 196, 196, 0.5) no-repeat center center;
+}
+footer div.social ul li div.facebook {
+  background-image: url("../../assets/icons/facebook.svg");
+}
+footer div.social ul li div.twitter {
+  background-image: url("../../assets/icons/twitter.svg");
+}
+footer div.social ul li div.instagram {
+  background-image: url("../../assets/icons/instagram.svg");
+}
+footer div.social ul li div.youtube {
+  background-image: url("../../assets/icons/youtube.svg");
+}
+footer div.social ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 12px;
+  line-height: 26px;
+}
+footer div.social ul li a:hover {
+  color: #E47209;
+}
+footer div.social ul li a:active {
+  color: #4B9200;
+}
+footer div.navi ul {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+}
+footer div.navi ul li {
+  padding: 330px 10px 10px 10px;
+}
+footer div.navi ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer div.navi ul li a.nav__item--active {
+  color: #E47209;
+}
+footer div.navi ul li a:hover {
+  color: #E47209;
+}
+footer div.navi ul li a:active {
+  color: #4B9200;
+}
+footer div.contact button.contact-us {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  background: white;
+  width: 130px;
+  color: black;
+  padding: 10px;
+  border: 1px solid #333B41;
+  border-radius: 5px;
+}
+footer div.contact button.contact-us:active {
+  color: #4B9200;
+  border-color: #4B9200;
+  border-radius: 5px;
+}
+footer div.contact input {
+  color: white;
+  background: black;
+  border: 2px solid orange;
+  padding: 10px;
+}
+footer div.contact p {
+  padding-top: 36px;
+  padding-bottom: 14px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: white;
+}
+footer div.contact p.designed {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+/*# sourceMappingURL=footer.css.map */

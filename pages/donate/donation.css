@@ -1,0 +1,179 @@
+section.donation {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+section.donation div.donation__content-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed {
+  padding: 0 92px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2px);
+}
+section.donation div.donation__content-wrapper div.pick-and-feed p.share {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+  padding-bottom: 62px;
+  padding-top: 30px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button {
+  width: 298px;
+  margin: 20px 340px;
+  background: #FE9013;
+  color: white;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button:hover {
+  background-color: #E47209;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form button:active {
+  background-color: #4B9200;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form label.donation-amount {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form label input {
+  margin: 50px auto 25px;
+  padding: 16px 0 16px 10px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.frequency {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 300px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #333B41;
+  padding-top: 40px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label:hover {
+  color: #E47209;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label:active {
+  color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input {
+  margin: 0 auto;
+  display: block;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input:checked {
+  color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -10px;
+  left: 0;
+  position: relative;
+  background-color: #FFEE2E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label input[type=radio]:checked:after {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  top: -10px;
+  left: 0;
+  position: relative;
+  background-color: #FFEE2E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed form div.range-container label span {
+  display: block;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 48px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet div.diet-counter {
+  padding-top: 40px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet div.diet-counter p {
+  text-align: center;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet div.diet-counter p.paragraph--bigger {
+  color: black;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  padding: 10px 10px 11px 0;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet div.diet-counter p.paragraph--smaller {
+  font-weight: 400;
+  line-height: 140%;
+  color: #333B41;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed div.animal-diet img.x-icon {
+  padding: 24px 64px 0 11px;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed h3 {
+  text-align: center;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #FE9013;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed p {
+  color: black;
+}
+section.donation div.donation__content-wrapper div.pick-and-feed p.subtitle {
+  padding-top: 14px;
+  padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+section.donation div.donation__content-wrapper h3 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 130%;
+}
+section.donation div.donation__content-wrapper h3.donation-info {
+  text-transform: capitalize;
+  color: #FE9013;
+  padding-bottom: 60px;
+  padding-top: 44px;
+}
+section.donation div.donation__content-wrapper p {
+  color: white;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=donation.css.map */

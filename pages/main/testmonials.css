@@ -1,0 +1,68 @@
+section.testimonials {
+  width: 100%;
+}
+section.testimonials div.testmonials-wrapper {
+  width: 1160px;
+  margin: 140px auto 180px auto;
+}
+section.testimonials div.testmonials-wrapper h2 {
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  color: #333B41;
+}
+section.testimonials div.testmonials-wrapper div.love-wall {
+  display: flex;
+  justify-content: space-around;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article {
+  position: relative;
+  width: 268px;
+  height: 391px;
+  background: #F1F3F2;
+  border: 2px solid orange;
+  border-radius: 20px;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article div.article__header {
+  display: block;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article div.article__header img {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article div.article__header p.name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: black;
+  padding-left: 63px;
+  padding-top: 15px;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article div.article__header p.local {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #BDBDBD;
+  padding-left: 63px;
+}
+section.testimonials div.testmonials-wrapper div.love-wall article div.article__header p.description {
+  padding: 10px 15px 0 16px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #767474;
+}
+section.testimonials div.testmonials-wrapper button.feedback-btn {
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 60px;
+  padding: 16px;
+  text-transform: uppercase;
+  border: none;
+}
+
+/*# sourceMappingURL=testmonials.css.map */
