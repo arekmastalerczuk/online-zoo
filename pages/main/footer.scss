@@ -49,20 +49,33 @@ footer {
       list-style: none;
       & li {
         padding-bottom: 10px;
+        display: flex;
         & div {
           display: inline-block;
           padding-right: 12px;
           background: rgba(196, 196, 196, 0.5);
-          width: 16px;
+          width: 26px;
+          height: 26px;
           border-radius: 50%;
-          & img {
-            margin: 0 auto;
+          background: rgba(196, 196, 196, 0.5) no-repeat center center;
+          &.facebook {
+            background-image: url("../../assets/icons/facebook.svg");
+          }
+          &.twitter {
+            background-image: url("../../assets/icons/twitter.svg");
+          }
+          &.instagram {
+            background-image: url("../../assets/icons/instagram.svg");
+          }
+          &.youtube {
+            background-image: url("../../assets/icons/youtube.svg");
           }
         }
         & a {
           text-decoration: none;
           color: white;
           padding-left: 12px;
+          line-height: 26px;
           &:hover {
             color: #E47209;
           }
@@ -104,8 +117,15 @@ footer {
       line-height: 140%;
       background: white;
       width: 130px;
-      color: #000000;
+      color: black;
       padding: 10px;
+      border: 1px solid #333B41;
+      border-radius: 5px;
+      &:active {
+        color: #4B9200;
+        border-color: #4B9200;
+        border-radius: 5px;
+      }
     }
     & input {
       color: white;

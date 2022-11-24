@@ -48,21 +48,34 @@ footer div.social ul {
 }
 footer div.social ul li {
   padding-bottom: 10px;
+  display: flex;
 }
 footer div.social ul li div {
   display: inline-block;
   padding-right: 12px;
   background: rgba(196, 196, 196, 0.5);
-  width: 16px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
+  background: rgba(196, 196, 196, 0.5) no-repeat center center;
 }
-footer div.social ul li div img {
-  margin: 0 auto;
+footer div.social ul li div.facebook {
+  background-image: url("../../assets/icons/facebook.svg");
+}
+footer div.social ul li div.twitter {
+  background-image: url("../../assets/icons/twitter.svg");
+}
+footer div.social ul li div.instagram {
+  background-image: url("../../assets/icons/instagram.svg");
+}
+footer div.social ul li div.youtube {
+  background-image: url("../../assets/icons/youtube.svg");
 }
 footer div.social ul li a {
   text-decoration: none;
   color: white;
   padding-left: 12px;
+  line-height: 26px;
 }
 footer div.social ul li a:hover {
   color: #E47209;
@@ -98,8 +111,15 @@ footer div.contact button.contact-us {
   line-height: 140%;
   background: white;
   width: 130px;
-  color: #000000;
+  color: black;
   padding: 10px;
+  border: 1px solid #333B41;
+  border-radius: 5px;
+}
+footer div.contact button.contact-us:active {
+  color: #4B9200;
+  border-color: #4B9200;
+  border-radius: 5px;
 }
 footer div.contact input {
   color: white;
